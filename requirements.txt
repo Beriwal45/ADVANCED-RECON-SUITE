@@ -1,0 +1,33 @@
+# ============================================================
+# ADVANCED RECON SUITE - COMPLETE DEPENDENCY LIST
+# ============================================================
+
+# SYSTEM TOOLS (install via apt on Kali/Debian/Ubuntu):
+# ------------------------------------------------------
+whois
+dnsutils         # provides 'dig'
+nikto
+nmap
+whatweb
+arjun
+
+# PYTHON PACKAGES (install via pip3):
+# ------------------------------------
+requests>=2.31.0
+urllib3>=2.0.0
+rich>=13.7.0
+python-whois>=0.8.0
+wappalyzer>=0.2.2
+beautifulsoup4
+lxml
+dicttoxml>=1.7.4
+bbot>=1.1.0
+
+# OPTIONAL (uncomment if needed):
+# selenium>=4.0.0
+
+# ============================================================
+# Installation commands (copy-paste):
+# ============================================================
+# sudo apt update && sudo apt install -y whois dnsutils nikto nmap whatweb arjun
+# pip3 install -r requirements_full.txt
